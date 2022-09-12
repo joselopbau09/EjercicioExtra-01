@@ -7,13 +7,11 @@ func numberOfSteps(num int) int {
 		return numberSteps
 	} else {
 		if num%2 == 0 {
-			num = num/2
 			numberSteps++
-			numberOfSteps(num)
+			numberOfSteps(num/2)
 		} else {
-			num = num -1
 			numberSteps++
-			numberOfSteps(num)
+			numberOfSteps(num - 1)
 		}
 	}
 	return numberSteps
@@ -21,5 +19,5 @@ func numberOfSteps(num int) int {
 
 func main() {
 	
-	fmt.Println(numberOfSteps(123))
+	fmt.Println(numberOfSteps(8))
 }
