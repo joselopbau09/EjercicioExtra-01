@@ -1,5 +1,5 @@
-#José Luis López Bautista
- Número de cuenta: 31719189-5
+# José Luis López Bautista
+  Número de cuenta: 31719189-5
 
 Numero de pasos para reducir un número entero positivo a cero.
 
